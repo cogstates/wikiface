@@ -46,7 +46,7 @@ CUDA_VISIBLE_DEVICES=0 ./bin/classification.py configs/llama3.py
     booktitle = "25th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2024)",
     year = "2024",
     month="sept",
-	publisher="Association for Computational Linguistics"
+    publisher="Association for Computational Linguistics"
 }
 ```
 

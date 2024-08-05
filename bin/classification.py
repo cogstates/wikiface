@@ -1,6 +1,25 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""An example script"""
+"""
+Finetuning Hugging Face models for face act classification.
+
+Note:
+    The configuration file accepts all arguments in the huggingface transformers
+    TrainingArguments class as well as those defined in this program's ModelArguments
+    and DataArguments classes. The file is written in json.
+
+    The datasets (or tasks) the models are trained on are defined in a separate task
+    configuration json file. The parameters included here override options set in
+    the main configuration file. A single model will be trained for each task.
+
+Usage Examples:
+    $ # Trains Llama 3 on WikiFace with 5-fold cross-validation.
+    $ classification.py configs/llama3.json
+    $
+    $ # Trains Llama 3 on all of WikiFace and then predicts on
+    $ # the unnannotated Wikipedia Talk Pages Corpus.
+    $ classification.py configs/predict.json
+"""
 import dataclasses
 import hashlib
 import itertools
