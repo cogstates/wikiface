@@ -34,7 +34,7 @@ wikiface/
 ## Example Usage
 
 ```
-CUDA_VISIBLE_DEVICES=0 ./bin/classification.py configs/llama3.py
+CUDA_VISIBLE_DEVICES=0 ./bin/classification.py configs/llama3.json
 ```
 
 ## Citation
