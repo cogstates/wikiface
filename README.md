@@ -1,6 +1,6 @@
 # Face and Politeness on Wikipedia
 
-This is the repository corresponding to [Examining Gender and Power on Wikipedia Through Face and Politeness](https://arxiv.org/), which was accepted to [SIGDIAL 2024](https://2024.sigdial.org/). It contains the code and data used to train face act annotation models for Wikipedia talk pages. This includes the WikiFace Corpus, a subset of the [Wikipedia Talk Pages Corpus](https://convokit.cornell.edu/documentation/wiki.html) which we annotated for [face acts](https://en.wikipedia.org/wiki/Politeness_theory).
+This is the repository corresponding to [Examining Gender and Power on Wikipedia Through Face and Politeness](https://arxiv.org/abs/2408.02798), which was accepted to [SIGDIAL 2024](https://2024.sigdial.org/). It contains the code and data used to train face act annotation models for Wikipedia talk pages. This includes the WikiFace Corpus, a subset of the [Wikipedia Talk Pages Corpus](https://convokit.cornell.edu/documentation/wiki.html) which we annotated for [face acts](https://en.wikipedia.org/wiki/Politeness_theory).
 
 ## Installation
 Supposing [conda](https://docs.conda.io/en/latest/) and [poetry](https://python-poetry.org) are installed, the project dependencies can be setup using the following commands.
